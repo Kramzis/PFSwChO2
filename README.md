@@ -4,7 +4,7 @@
 
 ## Pliki konfiguracyjne
 
-- **Plik:** `cluster-setup.yaml`
+- **Plik:** `setup.yaml`
 	Zawiera konfiguracje przestrzeni nazw appns-a oraz appns-b, deploymentów oraz serwisów dla aplikacji app-a & app-b. Dodatkowo zawiera serwisy typu ExternalName, defaultowy deploy dla backendu z serwisem dla niego, a także konfigurację Ingress.
 - **Plik** `network-policy.yaml`
 	- Zawiera natomiast definicje reguł sieciowych dla obu przestrzeni nazw.
